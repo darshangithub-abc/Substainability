@@ -1,0 +1,1401 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background-color: #ffffff;
+}
+header{
+    width: 100%;
+    position: relative;
+    padding-bottom: 190px;
+}
+
+.bg-img{
+    width: 100%;
+    height: 726px;
+    position: absolute;
+    z-index: -1;
+    background-image: url(../images/illustration/main.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 49% 80%;
+    object-fit: cover;
+    
+}
+.heading h1{
+    font-family: Oswald, sans-serif ;
+    font-size: 4.5rem;
+    color: #ffffff;
+    padding-top: 255px;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-left: 10px;
+   
+}
+.heading p{
+    padding: 23px 10px ;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+.img{
+    width: 100%;
+}
+.div{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/illustration/school02.jpeg);
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 14% 55%;
+    
+}
+.div-1 h2{
+    font-family: Oswald, sans-serif ;
+    font-weight: 1000;
+    font-size: 3rem;
+    line-height: 1.1;
+    padding-top: 20px;
+    
+}
+.div-1 h4{
+    font-size: 1.25rem;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    font-weight: 400;
+    color: #111111;
+}
+.div-1 p{
+    font-size: 0.875rem;
+    padding: 20px 0;
+    color: #1119;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+}
+.div-1 a{
+    font-size: 0.875rem;
+    color: #ffffff;
+    background-color: #ff5126;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.div-1{
+    padding-left: 10px;
+
+}
+
+.images{
+    width: 100%;
+    padding: 120px 0px;
+    
+}
+.first{
+    width: 100%;
+    height: 550px;
+    background-image: url(../images/illustration/school03.jpeg);
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 55%;
+    padding-top: 350px;
+    padding-left: 30px;
+    
+}
+
+.first h2{
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    color: #ffffff;
+    padding-bottom: 20px;
+
+}
+.first p{
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+    
+}
+
+.second{
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(#0000ff10,#0000ff10), url(../images/illustration/school04.jpeg);
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 55%;
+    padding-top: 350px;
+    padding-left: 30px;
+    
+}
+
+.second h2{
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    color: #ffffff;
+    padding-bottom: 20px;
+
+}
+.second p{
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+    
+}
+
+.third{
+    width: 100%;
+    height: 550px;
+    background-image:linear-gradient(#ff000040,#ff000040),  url(../images/illustration/school05.jpeg);
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 55%;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.third h2{
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    color: #ffffff;
+    padding-bottom: 20px;
+
+}
+.third p{
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+   
+}
+
+.photo{
+    width: 100%;
+    margin: -120px 0;
+    color: #111111;
+    background-color: #f2f2f2;
+}
+.four h2{
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+     text-align: center;
+     padding-top: 60px;
+     padding-bottom: 30px;
+}
+.four h4{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-family: Courier New, monospace;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 25px;
+}
+.file{
+    padding-top: 40px;
+}
+.file span i{
+    color: #ff5126;
+    font-size: 60px;
+    padding-left: 15px;
+}
+.file h2{
+    font-size: 1.875rem;
+    font-weight: 400;
+    margin: -51px 20px 0 30px;
+    line-height: 1.1;
+    font-family: Oswald, sans-serif;
+    padding-top: 3px;
+    padding-right: 70px;
+    color: #111111;
+}
+.file p{
+    margin: 25px -30px 25px 72px;
+    color: #1119;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.email{
+    padding-top: 40px;
+}
+.email span i{
+    color: #ff5126;
+    font-size: 55px;
+    padding-left: 8px;
+}
+.email h2{
+    font-size: 1.875rem;
+    font-weight: 400;
+    margin: -51px 20px 0 50px;
+    line-height: 1.1;
+    font-family: Oswald, sans-serif;
+    padding-top: 3px;
+    padding-right: 70px;
+    color: #111111;
+}
+.email p{
+    margin: 25px -30px 25px 72px;
+    color: #1119;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+}
+
+
+.person{
+    padding-top: 40px;
+}
+.person span i{
+    color: #ff5126;
+    font-size: 42px;
+    padding-left: 8px;
+}
+.person h2{
+    font-size: 1.875rem;
+    font-weight: 400;
+    margin: -51px 20px 0 30px;
+    line-height: 1.1;
+    font-family: Oswald, sans-serif;
+    padding-top: 3px;
+    padding-right: 95px;
+    color: #111111;
+}
+.person p{
+    margin: 25px -30px 25px 72px;
+    color: #1119;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.clock{
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+.clock span i{
+    color: #ff5126;
+    font-size: 55px;
+    padding-left: 8px;
+}
+.clock h2{
+    font-size: 1.875rem;
+    font-weight: 400;
+    margin: -51px 20px 0 40px;
+    line-height: 1.1;
+    font-family: Oswald, sans-serif;
+    padding-top: 3px;
+    padding-right: 70px;
+    color: #111111;
+}
+.clock p{
+    margin: 25px -22px 25px 72px;
+    color: #1119;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.picture{
+    width: 100%;
+}
+
+.five{
+    width: 100%;
+    background-image: url(../images/illustration/school06.jpeg);
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 55%;
+    padding-top: 350px;
+    padding-left: 45px;
+    
+}
+.five h2{
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    color: #ffffff;
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+
+
+.six{
+    width: 100%;
+    background-image:linear-gradient(#0000ff30,#ffffff50), url(../images/illustration/school07.jpeg);
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 55%;
+    padding-top: 300px;
+    padding-left: 45px;
+}
+.six h2{
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    color: #ffffff;
+    padding-bottom: 30px;
+    padding-top: 70px;
+    margin-left: -30px;
+}
+.six div{
+    height: 5px;
+    width: 15%;
+    background-color: #ffffff;
+   margin: -10px 0 30px -30px;
+}
+
+
+.seven{
+    width: 100%;
+    background-image: linear-gradient(#ff000060,#ff000060), url(../images/illustration/school08.jpeg);
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 55%;
+    padding-top: 300px;
+    padding-left: 45px;
+    
+}
+.seven h2{
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    color: #ffffff;
+    padding-bottom: 30px;
+    padding-top: 70px;
+    margin-left: -30px;
+
+}
+.seven div{
+    height: 5px;
+    width: 15%;
+    background-color: #ffffff;
+   margin: -10px 0 30px -30px;
+}
+
+.story{
+    width: 100%;
+}
+.div-2{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/illustration/school09.jpeg);
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 55%;
+
+    
+}
+.Quote {
+    padding-top: 60px;
+}
+.Quote span i{
+    font-size: 600%;
+    padding-left: 30px;
+}
+.Quote p{
+    margin:60px 44px 0 30px;
+    font-size: 0.875rem;
+    color:#1119;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+}
+.Quote h4{
+    margin:15px 35px 60px 30px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-family: Courier New, monospace;
+    color:#1119;
+}
+.art{
+    width: 100%;
+    padding-bottom: 500px;
+    background-color: #f2f2f2;
+}
+.sunshine img{
+    height: 41px;
+    margin: 25% auto;
+    padding-left: 120px;
+}
+.vintage img{
+    height: 70px;
+    margin: -10% auto;
+    padding-left: 120px;
+}
+.unlimited img{
+    height: 40px;
+    margin: -35% auto;
+    padding-left: 120px;
+}
+.coach img{
+    height: 70px;
+    margin: -65% auto;
+    padding-left: 120px;
+}
+.classic img{
+    height: 45px;
+    margin: -90% auto;
+    padding-left: 120px;
+}
+.surfing img{
+    height: 70px;
+    margin: -120% auto;
+    padding-left: 120px;
+}
+.contact{
+    padding-bottom: 60px;
+}
+.contact h2{
+    padding: 50px 18px;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+}
+.contact a{
+    font-weight: 400;
+    font-size: 0.875rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: #ff5126;
+    font-family: 'Courier New', monospace;
+    padding: 12px 30px;
+    margin-left: 85px;
+}
+.background{
+    width: 100%;
+    background-image:linear-gradient(#00000080, #00000080), url(../images/illustration/school16.jpeg);
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 55%;
+}
+.main h2{
+   padding-left: 55px;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    padding-top: 70px;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+.main h3{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-family: Courier New, monospace;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ffffff;
+}
+.main p{
+   padding-left: 15px;
+    padding-right: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.875rem;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+}
+.dispatch img{
+    height: 6vh;
+  width: 25%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 130px;
+  margin-top: 90px;
+}
+.dispatch h4{
+    padding-left: 25px;
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-family: Courier New, monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ffffff;
+}
+.dispatch p{
+    padding-left: 32px;
+   padding-top: 12px;
+    font-size: 0.rem;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+    padding-bottom: 60px;
+}
+
+.director img{
+    height: 6vh;
+  width: 25%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 130px;
+  margin-top: 90px;
+}
+.director h4{
+    padding-left: 25px;
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-family: Courier New, monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ffffff;
+}
+.director p{
+    padding-left: 32px;
+    padding-top: 12px;
+    font-size: 0.rem;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+    padding-bottom: 60px;
+}
+
+.director-1 img{
+    height: 6vh;
+  width: 25%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 130px;
+  margin-top: 90px;
+}
+.director-1 h4{
+    padding-left: 25px;
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-family: Courier New, monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ffffff;
+}
+.director-1 p{
+    padding-left: 32px;
+    padding-top: 12px;
+    font-size: 0.rem;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+    padding-bottom: 60px;
+}
+
+.manager img{
+    height: 6vh;
+  width: 25%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 130px;
+  margin-top: 90px;
+}
+.manager h4{
+    padding-left: 25px;
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-family: Courier New, monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ffffff;
+}
+.manager p{
+    padding-left: 32px;
+    padding-top: 12px;
+    font-size: 0.rem;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+    padding-bottom: 90px;
+}
+
+.last{
+    width: 100%;
+    padding-top: 60px;
+}
+.div-3{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/illustration/school21.jpeg);
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 46% 55%;
+    
+}
+.last-one h2{
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-top: 30px;
+    font-family: Oswald, sans-serif;
+    line-height: 1.1;
+
+}
+.last-one h4{
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    font-family: 'Courier New', monospace;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #1119;
+}
+.last-one p{
+    padding-top: 15px;
+    padding-left: 10px;
+    color: #111111;
+    line-height: 1.6;
+    padding-bottom: 25px;
+}
+.last-one a{
+    font-size: 0.875rem;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    color: #ffffff;
+    background-color: #ff5126;
+    font-family: 'Courier New', monospace;
+    padding: 12px 30px;
+    
+}
+.last{
+    padding-bottom: 120px;
+}
+.sec-1{
+    color: #111111;
+    background-color: #f2f2f2;
+}
+.phone h2{
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+
+}
+.phone h4{
+    padding: 24px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-family: Courier New, monospace;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.phone{
+    padding: 60px 0;
+}
+.location span i{
+    color: #ff5126;
+    font-size: 330%;
+    padding-left: 15px;
+}
+.location h4{
+    font-weight: 400;
+    margin: -49px 30px 0 85px;
+    font-family: Oswald, sans-serif;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+}
+.location p{
+    padding-bottom: 30px;
+    padding-left: 85px;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+    color: #1119;
+}
+.address{
+    padding-bottom: 45px;
+}
+.foot{
+    color: #ffffff;
+    background-color: #333333;
+    text-align: center;
+    padding: 2.3em;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    padding-left: 30px;
+}
+.foot a{
+    color: #ffb9a8;
+    text-decoration: underline;
+}
+
+@media(min-width:768px){
+    header{
+        padding-bottom: 110px;
+    }
+    .bg-img{
+       background-position: 50% 50%;
+       background-size: cover;
+    }
+    .heading {
+      padding-top: 170px;
+      padding-left: 50px;
+    }
+
+    .img{
+        width: 150%;
+        display: flex;
+        padding-left: 30px;
+    }
+    .div {
+        height: 50vh;
+      
+    }
+    .div-1 {
+        padding-left: 23px;  
+     }
+    .div-1 h2{
+        width: 20%;   
+     }
+    .div-1 h4{
+       width: 35%;   
+    }
+    .div-1 p{
+        width: 35%;
+        padding-bottom: 30px;   
+     }
+     .images{
+        padding-top: 55px;
+     }
+   .one{
+    width: 100%;
+    display: flex;
+   }
+   .first{
+    padding: 0;
+   }
+   .second{
+    padding: 0;
+   }
+   .first h2 {
+    padding-top: 290px;
+    padding-left: 75px;
+   }
+   .first p{
+    padding-left: 75px;
+   }
+   .second h2 {
+    padding-top: 340px;
+    padding-left: 27px;
+   }
+   .second p{
+    padding-left: 27px;
+   }
+   .third h2 {
+    padding-top: 315px;
+    margin-left: -13px;
+   }
+   .third p{
+    margin-left: -13px;
+   }
+   .four{
+    padding-top: 190px;
+   }
+   .four h2{
+    padding-bottom: 0px;
+   }
+   .four h4{
+    width: 74%;
+    padding-left: 230px;
+  }
+  .two{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+    padding-left: 20px;
+    padding-bottom: 250px;
+  }
+   
+ .file{
+    width: 50%;
+ }
+ .file span i{
+    padding-left: 10px;
+ }
+ .file h2{
+    padding-right: 125px;
+ }
+ .file p{
+    width: 71%;
+ }
+ .email{
+    width: 50%;
+ }
+ .email span i{
+    padding-left: 0px;
+ }
+ .email h2{
+    padding-right: 125px;
+ }
+ .email p{
+    width: 70%;
+ }
+ .person{
+    width: 50%;
+    
+ }
+ .person span i{
+    padding-left: 0px
+ }
+ .person h2{
+    padding-right: 140px;
+ }
+ .person p{
+    width: 70%;
+ }
+ .clock{
+    width: 50%;
+    
+ }
+ .clock span i{
+    padding-left: 0px;
+ }
+ .clock h2{
+    padding-right: 125px;
+ }
+ .clock p{
+    width: 75%;
+ }
+
+ .photo{
+    margin: -290px 0px;
+ }
+ .flex{
+    width: 100%;
+    display: flex;
+   }
+   .five{
+    padding: 0;
+   }
+   .six{
+    padding: 0;
+   }
+   .seven{
+    padding: 0;
+   }
+   .five h2 {
+    padding-top: 370px;
+    padding-left: 45px;
+   }
+   .six h2{
+    padding-top: 370px;
+    padding-left: 40px;
+   }
+   .six div{
+    margin-left: 10px;
+   }
+   .seven h2{
+    padding-top: 370px;
+    padding-left: 40px;
+    width: 100%;
+   }
+   .seven div{
+    margin-left: 10px;
+   }
+   .flexbox{
+    width: 165%;
+    display: flex;
+   }
+ 
+   .Quote span i{
+    padding-left: 50px;
+   }
+   .Quote p{
+    width: 34%;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+   
+   .Quote h4{
+    width: 32%;
+    padding-left: 17px;
+   }
+   .icon{
+    width: 100%;
+    display: flex;
+   }
+   .sunshine{
+    padding-top: 40px;
+   }
+   .vintage{
+    padding-left: 240px;
+    padding-top: 90px;
+   }
+   .icon-1{
+    width: 100%;
+    display: flex;
+   }
+   .unlimited{
+    padding-top: 40px;
+   }
+   .coach{
+    padding-left: 240px;
+   }
+   .icon-2{
+    width: 100%;
+    display: flex;
+   }
+   .classic{
+    padding-top: 40px;
+   }
+   .surfing{
+    padding-left: 240px;
+    padding-top: 20px;
+   }
+   .art{
+    padding-bottom: 270px;
+   }
+   .contact h2{
+    width: 73%;
+    padding-left: 220px;
+   }
+   .contact a{
+    margin-left: 305px;
+   }
+   .contact{
+    padding-bottom: 60px;
+   }
+   .main h2{
+    padding-left: 270px;
+   }
+   
+   .main p{
+    width: 75%;
+    padding-left: 195px;
+   }
+   
+   .directory{
+    width: 100%;
+    display: flex;
+   }
+   .staff{
+    width: 100%;
+    display: flex;
+   }
+ 
+   .director{
+    padding-left: 150px;
+   }
+  
+   .manager{
+    padding-left: 150px;
+   }
+   .dispatch img{
+    width: 30%;
+   }
+   .dispatch h4{
+    padding-left: 80px;
+   }
+   .dispatch p{
+    padding-left: 90px;
+   }
+   .director img{
+    width: 32%;
+   }
+   .director h4{
+    padding-left: 80px;
+   }
+   .director p{
+    padding-left: 90px;
+   }
+   .director-1 img{
+    width: 32%;
+   }
+   .director-1 h4{
+    padding-left: 80px;
+   }
+   .director-1 p{
+    padding-left: 90px;
+   }
+   .manager img{
+    width: 33%;
+   }
+   .manager h4{
+    padding-left: 80px;
+   }
+   .manager p{
+    padding-left: 90px;
+   }
+
+   .last{
+    width: 150%;
+    display: flex;
+    padding-bottom: 60px;
+}
+.div-3 {
+    height: 50vh;
+    margin-left: 25px;
+    background-position: 50% 0%;   
+}
+
+.last-one h2{
+    width: 25%;   
+ }
+.last-one h4{
+    width: 30%;
+    
+  }
+.last-one p{
+    width: 31%;
+    
+      
+ }
+
+ .phone h4{
+    width: 76%;
+    padding-left: 220px;
+ }
+ .common{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
+ }
+ .location{
+    padding-left: 20px;
+ }
+ .airport{
+    padding-left: 40px;
+ }
+ .zurich{
+    padding-left: 50px;
+ }
+ .rich{
+    padding-left: 25px;
+ }
+ .sell{
+    padding-left: 5px;
+ }
+ 
+
+}
+@media(min-width:992px){
+    .heading{
+        padding-top: 150px;
+    padding-left: 195px;
+    }
+    .heading h1{
+        font-size: 5.5rem;
+    }
+    header{
+        padding-bottom: 110px;
+    }
+ 
+    .div{
+        height: 65vh;
+        width: 40%;
+        margin-left: 140px;
+    }
+    .div-1 h4{
+        width: 20%;
+    }
+    .div-1 p{
+        width: 26%;
+    }
+    .one{
+        padding-bottom: 170px;
+    }
+    .first h2 {
+        padding-top: 340px;
+        padding-left: 20px;
+    }
+    .first p{
+        width: 90%;
+        padding-left: 20px;
+    }
+    .second h2 {
+        padding-top: 360px;
+        padding-left: 20px;
+    }
+    .second p{
+        width: 95%;
+    }
+    .third h2 {
+        padding-top: 0px;
+    }
+    .third p{
+        width: 90%;
+  
+    }
+      .two{
+        padding-top: 90px;
+        padding-left: 170px;
+        padding-bottom: 180px;
+      }
+
+     
+     .file h2{
+        padding-right: 370px;
+     }
+     .file p{
+        width: 76%;
+        padding-left: 30px;
+     }
+  
+     .email h2{
+        padding-right: 390px;
+     }
+     .email p{
+        width: 78%;
+        padding-left: 23px;
+     }
+   
+     .person span i{
+        padding-top: 50px;
+     }
+     .person h2{
+        padding-right: 395px;
+     }
+     .person p{
+        width: 75%;
+    padding-left: 30px;
+     }
+   
+     .clock span i{
+        padding-top: 50px;
+     }
+     .clock h2{
+        padding-right: 395px;
+     }
+     .clock p{
+        width: 75%;
+        margin-left: 14%;
+     }
+    
+
+    
+      .four{
+        padding-top: 10px;
+      }
+      .four h4{
+        width: 68%;
+    padding-left: 515px;
+      }
+      .five{
+        height: 515px;
+      }
+      .five h2{
+        padding-top: 390px;
+        padding-left: 90px;
+      }
+      .six{
+        height: 515px;
+      }
+      .six h2{
+        padding-top: 390px;
+    padding-left: 60px;
+      }
+      .six div{
+        margin-left: 30px;
+      }
+      .seven{
+        height: 515px;
+      }
+      .seven h2{
+        padding-top: 390px;
+    padding-left: 60px;
+      }
+      .seven div{
+        margin-left: 30px;
+      } 
+      .div-2{
+        height: 85vh;
+        width: 48%;
+        background-position: 50% 0%;
+      }
+      .art{
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+        padding-bottom: 40px;
+      }
+      .Quote{
+        padding-top: 110px;
+      }
+      .Quote p{
+        width: 31%;
+    padding-top: 30px;
+    padding-left: 23px;
+      }
+      .Quote h4{
+        padding-top: 20px;
+    padding-left: 25px;
+      }
+      .vintage{
+        padding-left: 50px;
+      }
+    
+      .classic{
+        margin-top: -115px;
+      }
+      .coach{
+        padding-left: 50px;
+      }
+      .surfing{
+        
+        padding-left: 0px;
+        margin-top: -110px;
+    }
+    
+
+      
+      .contact h2{
+        width: 73%;
+        padding-left: 430px;
+      }
+      .contact a{
+        margin-left: 730px;
+      }
+      .contact{
+        margin-bottom: 4%;
+      }
+      .main h2{
+        padding-left: 655px;
+      }
+    
+      .main p{
+        width: 68%;
+    padding-left: 460px
+      }
+      .inline{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .directory img{
+        height: 20vh;
+        width: 55%;
+        margin-left: 65px;
+      }
+      .staff img{
+        height: 20vh;
+    width: 50%;
+    margin-left: 80px;
+      }
+      .dispatch h4{
+        padding-left: 10px;
+      }
+      .dispatch p{
+        padding-left: 20px;
+      }
+      .director h4{
+        padding-left: 10px;
+      }
+      .director p{
+        padding-left: 20px;
+      }
+      .director-1 h4{
+        padding-left: 45px;
+      }
+      .director-1 p{
+        padding-left: 50px;
+      }
+      .manager h4{
+        padding-left: 40px;
+      }
+      .manager p{
+        padding-left: 55px;
+      }
+
+      .div-3{
+        height: 70vh;
+        width: 40%;
+        margin-left: 140px;
+    }
+    .last-one{
+        
+        padding-left: 20px;
+    }
+    .last-one h4{
+        width: 21%;
+    }
+    .last-one p{
+        width: 22%;
+        padding-top: 20px;
+    }
+   
+  
+    .phone h4{
+        width: 68%;
+        padding-left: 520px;
+    }
+    .class{
+        width: 100%;
+        display: flex;
+    }
+   
+}
